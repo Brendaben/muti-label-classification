@@ -33,10 +33,6 @@ def main(args):
     clfs, clf_names = get_classifiers()
     logger = my_pet.create_logger('../log/{}.log'.format(dataset_name))
     logger.info('dataset_name: {}'.format(dataset_name))
-    #logger.debug('X_train: \n{}'.format(X_train))
-    #logger.debug('y_train: \n{}'.format(y_train))
-    #logger.debug('X_test: \n{}'.format(X_test))
-    #logger.debug('y_test: \n{}'.format(y_test))
     for i, clf in enumerate(clfs):
         logger.info('classifier name: {}'.format(clf_names[i]))
         fit_time = time()
@@ -61,19 +57,3 @@ def main(args):
     logger.info('*'*75)
 if __name__ == '__main__':
     main(sys.argv[1:])
-    #dataset_name = 'yeast'
-    #path_train = 'data/mulan/{}/{}-train.arff'.format(dataset_name, dataset_name)
-    #path_test = 'data/mulan/{}/{}-test.arff'.format(dataset_name, dataset_name)
-    #X_train, y_train = dataset.load_from_arff(path_train, labelcount = 14, endian="little")
-    #X_test, y_test = dataset.load_from_arff(path_test, labelcount = 14, endian="little")
-    #clf = MLkNN(k=20)
-    #clf.fit(X_train, y_train)
-            
-    #y_pred_train = clf.predict(X_train)
-    #accuracy_train = metrics.accuracy_score(y_train, y_pred_train)
-
-    #y_pred_test = clf.predict(X_test)
-    #accuracy_test = metrics.accuracy_score(y_test, y_pred_test)
-            
-    #print('accuracy_train: {}'.format(accuracy_train))
-    #print('accuracy_test: {}'.format(accuracy_test))
