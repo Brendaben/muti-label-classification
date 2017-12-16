@@ -1,0 +1,46 @@
+2017-12-16 21:26:44,561 - main - dataset_name: bibtex
+2017-12-16 21:26:55,398 - main - classifier name: binary_relevance
+2017-12-16 21:26:55,398 - main - accuracy_train: 0.890573770492
+2017-12-16 21:26:55,398 - main - accuracy_test: 0.751093439364
+2017-12-16 21:27:08,980 - main - classifier name: classifier_chain
+2017-12-16 21:27:08,980 - main - accuracy_train: 0.895696721311
+2017-12-16 21:27:08,980 - main - accuracy_test: 0.752286282306
+2017-12-16 21:27:18,115 - main - classifier name: label_powerset
+2017-12-16 21:27:18,115 - main - accuracy_train: 0.922745901639
+2017-12-16 21:27:18,117 - main - accuracy_test: 0.763021868787
+2017-12-16 21:27:24,319 - main - classifier name: decision_tree
+2017-12-16 21:27:24,319 - main - accuracy_train: 1.0
+2017-12-16 21:27:24,321 - main - accuracy_test: 0.797614314115
+2017-12-16 21:31:50,680 - main - classifier name: knn
+2017-12-16 21:31:50,681 - main - accuracy_train: 0.849180327869
+2017-12-16 21:31:50,681 - main - accuracy_test: 0.823856858847
+2017-12-16 21:31:51,058 - main - classifier name: random_forest
+2017-12-16 21:31:51,058 - main - accuracy_train: 0.827663934426
+2017-12-16 21:31:51,058 - main - accuracy_test: 0.821073558648
+2017-12-16 21:31:51,058 - main - ***************************************************************************
+2017-12-16 21:33:54,904 - main - dataset_name: bibtex
+2017-12-16 21:33:54,911 - main - classifier name: binary_relevance
+2017-12-16 21:33:58,835 - main - fit_time: 3.92499995232s
+2017-12-16 21:34:05,880 - main - accuracy_train: 0.890573770492
+2017-12-16 21:34:05,880 - main - accuracy_test: 0.751093439364
+2017-12-16 21:34:05,881 - main - classifier name: classifier_chain
+2017-12-16 21:34:11,398 - main - fit_time: 5.51699995995s
+2017-12-16 21:34:18,924 - main - accuracy_train: 0.895696721311
+2017-12-16 21:34:18,924 - main - accuracy_test: 0.752286282306
+2017-12-16 21:34:18,924 - main - classifier name: label_powerset
+2017-12-16 21:34:19,312 - main - fit_time: 0.388000011444s
+2017-12-16 21:34:27,862 - main - accuracy_train: 0.922745901639
+2017-12-16 21:34:27,864 - main - accuracy_test: 0.763021868787
+2017-12-16 21:34:27,865 - main - classifier name: decision_tree
+2017-12-16 21:34:34,042 - main - fit_time: 6.17700004578s
+2017-12-16 21:34:34,108 - main - accuracy_train: 1.0
+2017-12-16 21:34:34,109 - main - accuracy_test: 0.797614314115
+2017-12-16 21:34:34,109 - main - classifier name: knn
+2017-12-16 21:36:20,440 - main - fit_time: 106.329999924s
+2017-12-16 21:38:58,348 - main - accuracy_train: 0.849180327869
+2017-12-16 21:38:58,348 - main - accuracy_test: 0.823856858847
+2017-12-16 21:38:58,348 - main - classifier name: random_forest
+2017-12-16 21:38:58,516 - main - fit_time: 0.167000055313s
+2017-12-16 21:38:58,678 - main - accuracy_train: 0.827663934426
+2017-12-16 21:38:58,680 - main - accuracy_test: 0.821073558648
+2017-12-16 21:38:58,680 - main - ***************************************************************************
